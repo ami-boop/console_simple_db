@@ -1,3 +1,7 @@
+mod database;
+
+use crate::database::process;
+
 fn main() {
-    println!("Hello, world!");
+    process()
 }
